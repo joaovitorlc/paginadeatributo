@@ -1,0 +1,32 @@
+html{
+padding: 0px; margin: 0px; font-family: Arial, Helvetica, sans-serif; background-color:#ae5618; width: 100%;
+}
+body{
+  padding: 0px; margin: 0px; font-family: Arial, Helvetica, sans-serif; background-color:#ae5618; width: 100%;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.primeira{
+  display: flex;
+  margin: 15px;
+  text-align: center;
+
+}
+.image1{  
+  width: 300px;
+  flex: 1;
+  border-radius: 15px;
+
+}
+.biografia{
+  background-color: #cc9e83;
+  flex: 1;
+  font-size: 25px;
+  border-radius: 15px;
+  padding: 10px;
+}
+
