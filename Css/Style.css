@@ -1,9 +1,20 @@
 *{
-  font-family: Arial, Helvetica, sans-serif; width: 100%;
+  font-family: Arial, Helvetica, sans-serif; 
+  padding: 0px;
+  margin: 0px;
 }
+html{padding: 0px;}
 
+section{ 
+  padding: 10px;
+}
+header{  padding: 10px;
+}
 h1{
   background-color: #cc9e83;
+}
+h3{
+  color: #cc9e83;
 }
 header{
   display: flex;
@@ -13,6 +24,7 @@ header{
 .primeira{
   display: flex;
   text-align: center;
+  margin-bottom: 10px;
 }
 .image1{  
   width: 300px;
@@ -24,6 +36,12 @@ header{
   flex: 1;
   font-size: 22px;
   border-radius: 15px;
+  padding: 6px;
+}
+h2{
+  text-align: center;
+  color: #cc9e83;
+  margin: 10px;
 }
 .segunda{
   padding: 10px;
@@ -41,8 +59,54 @@ header{
 .sobreano{
   background-image: url('../Image/mrbean3.jpg');
   background-size: cover;
-  height: 785px;
+  height: 765px;
   width: 100%;
   display: flex;
+  padding: 0px;
+}
 
+.terceira{
+  padding: 0px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.terceiratitle{
+  margin: 0px;
+  background-color: black;
+}
+.vidapessoal{
+  font-size: 21px;
+  line-height: 29px;
+  text-align: justify;
+  margin: 0px;
+  background-color: #cc9e83;
+  padding: 6px;
+}
+
+.theendsection{
+  display: flex;
+  margin: 20px;
+  background-color: aqua;
+}
+.sectionend{
+  flex: 1;
+  vertical-align: middle;
+}
+.referencia{
+  flex: 1;
+  font-size: 15px;
+}
+button{
+  flex: 1;
+  cursor: pointer;
+  width: 45px; 
+  height: 25px;
+  margin: 5px;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  height: 150px;
 }
