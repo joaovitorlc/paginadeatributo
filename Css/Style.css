@@ -64,13 +64,11 @@ h2{
   display: flex;
   padding: 0px;
 }
-
 .terceira{
   padding: 0px;
   margin-top: 15px;
   margin-bottom: 15px;
 }
-
 .terceiratitle{
   margin: 0px;
   background-color: black;
@@ -83,7 +81,6 @@ h2{
   background-color: #cc9e83;
   padding: 6px;
 }
-
 .theendsection{
   display: flex;
   margin: 20px;
@@ -110,10 +107,14 @@ button{
 }
 h5{
   font-size: 15px;
+  color: black;
 }
-
 footer{
+  display: flex;
   background-color: black;
   color: white;
   height: 150px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
 }
