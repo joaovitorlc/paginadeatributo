@@ -129,12 +129,13 @@ footer{
 .imagemdorodape{
   height: 100px;
   width: auto;
+  margin: 10px;
 }
 
 @media (max-width:800px) {
   footer{
     flex-wrap: wrap-reverse;
-    font-size: 70%;
+    font-size: 0px;
   }
   .primeira{
     display: flex;
@@ -163,16 +164,16 @@ footer{
     height: 70px;
   }
 }
-@media (max-width:510px) {
+@media (max-width:600px) {
   .ano{
     margin: 10px;
   }
   footer{
-    font-size: 8px;
+    font-size: 6px;
   }
 }
 
-@media (max-width:400px) {
+@media (max-width:450px) {
 
   .image1{
     width: 250px;
@@ -180,11 +181,19 @@ footer{
   .biografia p{
     font-size: 15px;
   }
+  .sobreano{
+    height: auto;
+  }
+  .segunda{
+    font-size: 12px;
+  }
   .vidapessoal{
     font-size: 15px;
     line-height: 15px;
   }
   footer{
-    font-size: 0px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
   }
 }
